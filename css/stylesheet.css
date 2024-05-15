@@ -1,0 +1,18 @@
+@media all and (max-width: 767px) {
+  .tamanioImagen {
+    height: 250px;
+    object-fit: cover;
+    /* la imagen mantiene la proporcion con objet fit */
+  }
+}
+
+.efecto {
+  filter: brightness(80%);
+}
+
+.efecto:hover {
+  filter: brightness(100%);
+  transition: 500ms;
+  box-shadow: 10px 20px 2px grey;
+  
+}
